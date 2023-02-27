@@ -34,3 +34,31 @@
     display:block;
     font-size:14px;
 }
+
+@media screen and (min-width: 768px) {
+   .header__nav li{
+    font-weight: bold;
+   }
+}
+
+@media screen and (min-width:1440px) {
+    .header{
+        margin: auto;
+        width: 80%;
+        max-width: 1136px;
+    }
+
+    .header__nav{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .header__nav li{
+        display: block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #464646;
+    }
+}
