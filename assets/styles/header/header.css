@@ -1,0 +1,36 @@
+
+.header{
+
+    display:flex;    
+    justify-content:space-between;
+    padding: 1rem;
+    height:56px;
+    align-items:center;
+}
+
+.header__logo img{
+    width:24px;
+    height:24px;
+}
+
+.header__logo{
+    align-items:center;
+    display:flex;
+    gap:8px;
+    flex-grow:0;
+    padding:0;
+}
+
+.header__logo h3{
+    font-weight:bold;
+    font-size:16px;
+}
+
+.header__nav li{
+    display:none;
+}
+
+.header__nav li:last-child{
+    display:block;
+    font-size:14px;
+}
