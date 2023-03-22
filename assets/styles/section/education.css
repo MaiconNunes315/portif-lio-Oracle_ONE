@@ -1,0 +1,49 @@
+.education_container{
+    background-color: #EAF2FD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+}
+
+.education_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.education_card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 169px;
+}
+
+.education_title{
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+
+.education_card_img{
+    background-color: #ffffff;
+    width: 296px;
+    height: 116px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education_card_img img{
+    width: 84px;
+    
+}
+
+.education_date{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
