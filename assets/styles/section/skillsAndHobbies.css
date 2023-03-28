@@ -7,6 +7,7 @@
     padding: 16px;
 }
 
+
 .pt{
     padding-top: 32px;
 }
@@ -16,6 +17,7 @@
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
+    max-width: 1136px;
 }
 
 .card_title{
