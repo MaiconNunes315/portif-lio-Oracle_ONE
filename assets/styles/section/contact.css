@@ -64,7 +64,12 @@ display: none;
     
 }
 
-.contact_form textarea,input:focus{
+.contact_form input:focus{
+    border-bottom: 2px #2A7AE4 solid;
+   
+}
+
+.contact_form textarea:focus{
     border-bottom: 2px #2A7AE4 solid;
    
 }
