@@ -546,6 +546,7 @@
 
     <section class="contact">
 
+
         <div class="contact_container">
             <img class="contact_img" src="./assets/img/tel.png" alt="imagem de um telefone" />
 
@@ -559,33 +560,37 @@
                 </div>
 
 
-                <form class="contact_form">
+                <form class="contact_form" method="post">
 
-                    <div class="contact_formRelative">
-
-                        <input type="text" id="name" placeholder="Digite seu nome" />
+                    <fieldset class="contact_formRelative">
+                        <input required type="text" id="name" name="name" placeholder="Digite seu nome" />
                         <label for="name">Nome</label>
-                    </div>
+                        <span class="menssage_error">Campo obrigatório, favor preencher</span>
+                    </fieldset>
 
-                    <div class="contact_formRelative">
+                    <fieldset class="contact_formRelative">
 
-                        <input type="email" id="email" placeholder="Digite seu email" />
+                        <input required type="email" id="email" name="email" placeholder="Digite seu email"
+                            title="Exemplo de email seunome@gmail.com" />
                         <label for="email">Email</label>
-                    </div>
+                        <span class="menssage_error">Campo obrigatório, favor preencher</span>
+                    </fieldset>
 
-                    <div class="contact_formRelative">
+                    <fieldset class="contact_formRelative">
 
-                        <input type="text" id="subject" placeholder="Digite o assunto" />
+                        <input required type="text" id="subject" name="subject" placeholder="Digite o assunto" />
                         <label for="subject">Assunto</label>
-                    </div>
+                        <span class="menssage_error">Campo obrigatório, favor preencher</span>
+                    </fieldset>
 
-                    <div class="contact_formRelative">
+                    <fieldset class="contact_formRelative">
 
-                        <textarea id="menssage"></textarea>
+                        <textarea required id="menssage" name="menssage"></textarea>
                         <label for="menssage">Mensagem</label>
-                    </div>
 
-                    <button class="contact_button" type="submit">Enviar mensagem</button>
+                    </fieldset>
+
+                    <button class="contact_button" type="button">Enviar mensagem</button>
                 </form>
             </div>
         </div>
@@ -594,7 +599,9 @@
     <footer>
         Desenvolvido por Maicon Nunes 2023
     </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js" type="module"></script>
+
 </body>
 
 </html>
