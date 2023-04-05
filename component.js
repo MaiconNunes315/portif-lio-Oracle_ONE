@@ -8,7 +8,7 @@ export default function component(className, info, repo, demo, imageFilter) {
 
     // criando a tag img
     const image = document.createElement("img");
-    image.setAttribute("src", `./assets/img/${imageFilter.src}`);
+    image.setAttribute("src", `./assets/img/${imageFilter}`);
     image.setAttribute("alt", "Imagem do projeto pronto");
     image.classList.add(className.image);
     projectCard.appendChild(image);
